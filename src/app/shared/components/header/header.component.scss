@@ -1,0 +1,18 @@
+
+nav > a {
+    padding: 5px;
+    text-decoration: none;
+  }
+  nav > a.active {
+    background-color: rgb(4, 4, 133);
+  }
+  .header-row{
+    width: 100%;
+  }
+  .header-toolbar {
+    margin-bottom: 20px;
+  }
+
+  .admin {
+    background-color: rgba(0, 0, 0, 0.5);
+  }

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "platzi-news-5b7d5": {
+      "hosting": {
+        "platzi-store": [
+          "platzi-news-5b7d5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "platzi-store-232c3"
+  }
+}
