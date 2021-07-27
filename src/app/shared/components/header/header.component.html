@@ -2,7 +2,7 @@
     <mat-toolbar-row>
       <div class="container">
         <div class="row between-xs middle-xs header-row">
-          <nav>
+          <nav class="center">
             <a mat-button routerLink="/home" routerLinkActive="active">Home</a>
             <a mat-button routerLink="/products" routerLinkActive="active"
               >Products</a
@@ -14,7 +14,7 @@
               >Admin panel</a
             >
           </nav>
-          <a routerLink="/order" mat-raised-button [matBadge]="total$ | async" matBadgeColor="warn">
+          <a class="header-cart" routerLink="/order" mat-raised-button [matBadge]="total$ | async" matBadgeColor="warn">
             <mat-icon>shopping_cart</mat-icon>
             Carrito
           </a>

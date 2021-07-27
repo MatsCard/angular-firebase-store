@@ -1,15 +1,13 @@
-<div *ngIf="product">
+<div *ngIf="(product$ | async) as product">
     <div>
-        <img class="img-product" [src]="product.image" alt="">
+        <img [src]="product.image" alt="">
     </div>
-
-    <mat-list>
-     <mat-list-item> Nombre: {{ product.title }} </mat-list-item>
-     <mat-list-item> Precio: {{ product.price | currency}}  </mat-list-item>
-     <mat-list-item> {{ product.description}} </mat-list-item>
-     <mat-list-item> 
-         <button mat-raised-button color="primary" (click)="addCart()">Agregar al carrito</button>
-     </mat-list-item>
-    </mat-list>
+    <div>
+        <ul>
+            <li>Nombre: {{product.title}}</li>
+            <li>Precio: {{product.price}}</li>
+        </ul>
+        <p>{{product.description}}</p>
+    </div>
 
 </div>

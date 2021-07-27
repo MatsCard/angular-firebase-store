@@ -16,3 +16,19 @@ nav > a {
   .admin {
     background-color: rgba(0, 0, 0, 0.5);
   }
+
+
+@media screen and (max-width: 426px) {
+  .header-toolbar {
+    padding: 40px 0px 30px 0px;
+  }
+  .header-cart {
+    width: 80%;
+    margin: 20px 0px;
+  }
+
+  .header-row  {
+    justify-content: center;
+    align-items: center;
+  }
+}

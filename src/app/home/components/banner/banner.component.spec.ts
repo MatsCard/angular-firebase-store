@@ -1,10 +1,13 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BannerComponent } from './banner.component';
+import Swiper from 'swiper/swiper-bundle.js'
+
 
 describe('BannerComponent', () => {
   let component: BannerComponent;
   let fixture: ComponentFixture<BannerComponent>;
+
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
